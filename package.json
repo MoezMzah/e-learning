@@ -1,0 +1,43 @@
+{
+  "name": "ilen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \" npm run client \" \" npm run server \""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@phuocng/react-pdf-viewer": "^1.7.0",
+    "antd": "^4.10.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "downloadjs": "^1.4.7",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-validator": "^6.9.2",
+    "gravatar": "^1.8.1",
+    "gridfs-stream": "^1.1.1",
+    "jquery": "^3.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.11.10",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "pdfjs-dist": "^2.5.207",
+    "react-gravatar": "^2.6.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}

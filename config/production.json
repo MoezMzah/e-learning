@@ -1,0 +1,5 @@
+{
+    "mongoURI":"mongodb+srv://ilen123:ilen123@devconnector.2bqcu.mongodb.net/ilen?retryWrites=true&w=majority",
+    "jwtSecret":"myToken"
+     
+}
