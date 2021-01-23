@@ -2,6 +2,8 @@
   "name": "ilen",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "14.15.0"},
   "main": "server.js",
   "scripts": {
     "start": "node server",
