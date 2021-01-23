@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Moment from "react-moment";
-import { useDispatch, useSelector } from "react-redux";
-import { deleteComment } from "../../actions/post";
-import { Fragment } from "react";
+// import { useDispatch, useSelector } from "react-redux";
+// import { deleteComment } from "../../actions/post";
+// import { Fragment } from "react";
 
 export const CommentItem = ({ postId, comment }) => {
     // comment: {_id, text, name, avatar, user, date }
-    const dispatch = useDispatch();
-    const auth = useSelector((state) => state.auth);
+    // const dispatch = useDispatch();
+    // const auth = useSelector((state) => state.auth);
     return (
         <div className="comment bg-white p-1 my-1">
             <div>

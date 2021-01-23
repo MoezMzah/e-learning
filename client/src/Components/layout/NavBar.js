@@ -70,7 +70,7 @@ import logo from "../../assets/wl 1.png";
                         </li>
 
                         <li>
-                            <a onClick={logout} href="/login">
+                            <a onClick={logout} href="/">
                                 Log Out{" "}
                             </a>
                         </li>
