@@ -21,7 +21,7 @@ import logo from "../../assets/wl 1.png";
                         </li>
                         <li>
                             {" "}
-                            <a href="/list">Courses</a>
+                            <a href="/liste">Courses</a>
                         </li>
                         <li>
                             {" "}
@@ -56,7 +56,7 @@ import logo from "../../assets/wl 1.png";
                         </li>
                         <li>
                             {" "}
-                            <a href="/list">Courses</a>
+                            <a href="/liste">Courses</a>
                         </li>
 
 

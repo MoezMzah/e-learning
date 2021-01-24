@@ -45,7 +45,7 @@ const App = () => {
                             <Route exact path="/edit-profile" component={EditProfile} />
                             <PrivateRoute exact path="/post/:id" component={Post} />
                             <PrivateRoute component={FileUpload} path="/upload" />
-                            <PrivateRoute component={FilesList} path="/list" />
+                            <PrivateRoute component={FilesList} path="/liste" />
                         </Switch>
                     </section>
                 </Fragment>
