@@ -70,7 +70,7 @@ import logo from "../../assets/wl 1.png";
                         </li>
 
                         <li>
-                            <a onClick={logout} href="/">
+                            <a onClick={logout} href="/login">
                                 Log Out{" "}
                             </a>
                         </li>
@@ -78,7 +78,7 @@ import logo from "../../assets/wl 1.png";
                 </nav>
             </header>
         );
-    const guestLinks = <Link to="/"></Link>;
+    const guestLinks = <Link to="/login"></Link>;
     return <div>{!loading && <Fragment className="bar">{isAuthenticated ? authLinks : guestLinks}</Fragment>}</div>;
 };
 NavBar.propTypes = {

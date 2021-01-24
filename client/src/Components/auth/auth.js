@@ -111,11 +111,11 @@ function Landing1({ login, isAuthenticated, setAlert, register }) {
                         </label>
                         <label>
                             <span>Password</span>
-                            <input type="text" required value={password} name="password" onChange={(e) => onChange(e)} />
+                            <input type="password" required value={password} name="password" onChange={(e) => onChange(e)} />
                         </label>
                         <label>
                             <span>Confirm Password</span>
-                            <input type="text" required value={password2} name="password2" onChange={(e) => onChange(e)} />
+                            <input type="password" required value={password2} name="password2" onChange={(e) => onChange(e)} />
                         </label>
                         <button type="submit" className="submit">
                             Sign Up Now

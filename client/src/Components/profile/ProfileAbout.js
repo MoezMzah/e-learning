@@ -2,7 +2,7 @@ import React from "react";
 import { Fragment } from "react";
 import { connect } from "react-redux";
 import { deleteAccount } from "../../actions/profile";
-import { Link } from "react-router-dom";
+import { Link ,Redirect} from "react-router-dom";
 
 const ProfileAbout = ({ profile, deleteAccount }) => {
     let name = profile && profile.user && profile.user.name;
@@ -41,7 +41,7 @@ const ProfileAbout = ({ profile, deleteAccount }) => {
                         <Fragment>
                             <div className="my-2">
                                 <button className="btn btn-danger" onClick={() => deleteAccount()}>
-                                    <i className="fas fa-user-minus"></i>
+                                     <i className="fas fa-user-minus"></i> 
                                 </button>
                             </div>
                         </Fragment>
