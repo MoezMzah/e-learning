@@ -2,14 +2,11 @@
   "name": "ilen",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "14.15.0"},
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \" npm run client \" \" npm run server \"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server",
+    "dev": "concurrently \"npm start \" \" cd client && npm start\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
